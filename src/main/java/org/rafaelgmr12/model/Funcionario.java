@@ -66,5 +66,4 @@ public class Funcionario {
     public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
         this.dataUltimoReajuste = dataUltimoReajuste;
     }
-
 }

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8210e5-3b79-419b-8b1d-d446a9e75c2f" name="Changes" comment="[chore] delete main">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/ReajusteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="3a8210e5-3b79-419b-8b1d-d446a9e75c2f" name="Changes" comment="[feat] adicionando coesão (SRP)">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63942edd9cc4882c63c62dfb184a11c87b7e315f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/reajuste/ValidacaoPercentualReajuste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/reajuste/ValidacaoPeriodicidadeEntreReajustes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/reajuste/ValidacaoReajuste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rafaelgmr12/service/reajuste/ReajusteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669648504498</updated>
       <workItem from="1669648506497" duration="329000" />
-      <workItem from="1669741041200" duration="249000" />
+      <workItem from="1669741041200" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1669648702474</created>
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669648798087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[feat] adicionando coesão (SRP)">
+      <created>1669741334137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669741334137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="[chore] delete main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[chore] delete main" />
+    <MESSAGE value="[feat] adicionando coesão (SRP)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] adicionando coesão (SRP)" />
   </component>
 </project>
